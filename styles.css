@@ -1,0 +1,52 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.left-side-content {
+    background: url(images/thomas-de-luze-w8PWj40lmAk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+    margin-top: 175px;
+    height: 12%;
+    gap: 2%;
+
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 2rem;
+}
+
+.logo h1 {
+    align-self: center;
+}
+
+.image-credit {
+    margin-top: auto;
+    text-align: center;
+
+    color: white;
+    opacity: .6;
+}
+
+.image-credit a {
+    text-decoration: none;
+    color: white;
+}
