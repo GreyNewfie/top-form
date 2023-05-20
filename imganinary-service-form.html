@@ -44,9 +44,9 @@
 					</p>
 					<p>You know you want too!</p>
 				</div>
-				<form action="#" class="signup-form">
-					<fieldset>
-						<legend>Let's do this!</legend>
+				<form id="myform" action="#" class="signup-form">
+					<div class="form-fields">
+						<p>Let's do this!</p>
 						<div>
 							<label for="first-name">First Name</label>
 							<input type="text" name="first-name" id="first-name" required />
@@ -76,13 +76,14 @@
 								required
 							/>
 						</div>
-					</fieldset>
-					<div class="button">
-						<button type="button">Create Account</button>
 					</div>
 				</form>
+				<div class="button">
+					<button type="button" form="myform">Create Account</button>
+				</div>
+
 				<div class="has-login">
-					<p>Already have an account?</p>
+					<p>Already have an account? <a href="#">Log In</a></p>
 				</div>
 			</div>
 		</div>
