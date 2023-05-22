@@ -129,7 +129,8 @@ input:invalid:focus {
 }
 
 button {
-    background-color: #FFF946;
+    background-color: #273647;
+    color: white;
     border: none;
     border-radius: 7px;
     padding: 10px 40px;
@@ -137,4 +138,10 @@ button {
     font-size: 1.2rem;
     font-weight: 500;
     box-shadow: 5px 5px #f1f1f1;
+}
+
+.has-login a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #700000;
 }
