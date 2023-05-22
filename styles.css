@@ -1,3 +1,8 @@
+@font-face {
+    font-family: viking-font;
+    src: url(fonts/odin-lined.otf);
+}
+
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
@@ -26,16 +31,19 @@ body {
 
     padding: 10px;
     margin-top: 175px;
-    height: 12%;
-    gap: 2%;
+    height: 14%;
+    gap: 10px;
 
     background: rgba(0, 0, 0, 0.3);
     color: white;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .logo h1 {
     align-self: center;
+    padding-top: 25px;
+
+    font-family: viking-font, Roboto, sans-serif;
 }
 
 .image-credit {
