@@ -94,10 +94,12 @@ input {
     margin-bottom: 35px;
 }
 
-.form-fields p {
+.form-fields>p {
     width: 100%;
+    margin-bottom: 0;
     font-size: 1.3rem;
     font-weight: 500;
+
 }
 
 .form-fields>div {
@@ -106,6 +108,24 @@ input {
 
     width: 40%;
     opacity: .6;
+    font-size: .8rem;
+}
+
+input {
+    padding: 3px;
+}
+
+input:focus {
+    box-shadow: 5px 5px #f1f1f1;
+}
+
+input:required:valid {
+    border: solid green;
+    background-color: #E4FFDF;
+}
+
+input:invalid:focus {
+    background-color: #ffe5e5;
 }
 
 button {
